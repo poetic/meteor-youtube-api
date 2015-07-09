@@ -1,8 +1,8 @@
 Package.describe({
   name: 'yang2007chun:youtube-api',
-  version: '0.0.1',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
-  summary: 'wrapper for youtube api',
+  summary: 'wrapper for youtube api, server side only',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/poetic/meteor-youtube-api',
   // By default, Meteor will default to using README.md for documentation.
@@ -10,7 +10,7 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Npm.depends({"youtube-api": "0.3.2"})
+Npm.depends({"youtube-api": "1.0.1"})
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
