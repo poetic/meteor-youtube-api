@@ -1,1 +1,1 @@
-// Write your package code here!
+Youtube = Npm.require('youtube-api')
